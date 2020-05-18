@@ -3,7 +3,7 @@
   <head>
     <title> Dan Tran Portfolio </title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -11,10 +11,10 @@
 
   <body>
 	<div class = "container">
-      <div class="jumbotron"> 
+      <div class="jumbotron text-center"> 
 		  <h1> Dan Tran </h1>
 		  <p> UX Designer </p>
-		  <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+		  <nav class="navbar navbar-expand-sm bg-light navbar-dark sticky-top">
             <ul class="nav justify-content-center">
               <li class="nav-item"><a class="nav-link" href="../index.html"> Home </a></li>
               <li class="nav-item"><a class="nav-link" href="pages/about.html"> About </a></li>
@@ -23,9 +23,60 @@
             </ul>
           </nav>
 	  </div>
-	  
-     </div>
-	 
+	  <h1> Project 1 </h1>
+	  <img src="../img/project1/project1.png" class="img-fluid">
+	  <h3> Overview/Background </h3>
+	  <p> Oftentimes, people have encountered scenarios where they are overwhelmed with work. Sometimes, they don’t manage their time efficiently and wait until the last minute to do their work. Sometimes, these tasks are so easy that they wait until the last minute. When these tasks build up, it can cause unnecessary stress. When people are stressed, they are more prone to distractions and will lead to procrastination.</p>
+	  <p> However, after talking to several college students, this could be resolved by allocating time into tasks ahead of a deadline. However, many apps don’t include a timer to track how much time is done within the tasks. One could approximate the time it takes to do one task and time it. If a task is too big, a person could allocate it to minitasks and split the time. If one finishes a task early, they could cross it out and find out they have free time. If one finishes a task above their estimated time, they could add more time and realize that they should spend more time into this task. As a result, proper time management is key in finishing work.</p>
+	  <p> In one course in Interaction Design, I worked with two other people to create a mobile web app that helps the user manage tasks through the use of timers, lists, and sound feedback. We learned how the design process works, such as needfinding, prototyping, designing the app, and user testing.</p>
+	  <p> Our app, Temporal, was designed to help college students manage their time by creating a means to track how many tasks they have to do and how much time they have to do in these tasks. I was primarily responsible for coding the functionality. I also contributed to some of the CSS design work in the final product.</p>
+	  <h3>Problem Statement </h3>
+	  <p>Many college students encounter the problem of being overwhelmed when they don’t manage their time efficiently. Usually, people won’t remember all the due dates and the estimated times it takes to finish before the deadline. </p>
+	  <h3> User Research/Needfinding </h3>
+	  <p>In the needfinding process, we asked and observed several college students, trying to study in their free time. We observed some breakdowns, such as being distracted by their phone. We also interviewed them, asking questions about their procrastination. We asked questions, such as if their procrastination was preventable and why they feel that way.</p>
+	  <p> In order to draw inspiration, we looked at popular apps that are involved with tasks or time. We looked at any.do for how it keeps track of tasks. We were inspired by the Android timer and how it times how much time a user has once it sets. We looked at Alarmy’s simple list design and how they used icons to fit everything within one block.</p>
+	  <h3> Storyboards </h3>
+	  <p> In order to showcase what our users needed, we created storyboards on how the app can be used in different situations. In storyboard 1, it focuses on how the app can be used to study for an exam. In storyboard 2, it focuses on how the app can be used for breaks. In storyboard 3, it focuses on how the app can be used for exercising</p>
+	  <div class="row"> 
+	    <div class="column">
+		  <h4 align="center"> Storyboard 1 </h4>
+	      <img align="center" src="../img/project1/storyboard1.png" class="img-fluid" width="500px">
+		</div>
+        <div class="column">
+		  <h4 align="center"> Storyboard 2 </h4>
+	      <img align="center" src="../img/project1/storyboard2.jpg" class="img-fluid" width="500px">
+          <h4 align="center"> Storyboard 3 </h4>
+	      <img align="center" src="../img/project1/storyboard3.jpg" class="img-fluid" width="500px">
+		</div>
+	  </div>
+	  <h3> Low-fidelity Prototypes </h3>
+	  <p> Our group started with low-fidelity prototypes, so we didn’t have to keep changing the design if we made it. We made two prototypes with design choices and screens that we thought we would do. Prototype 1 has a more boxy, modern feel, while Prototype 2 has a simple look that’s easy to navigate. Prototype 1 has more sections (goals section and calendar section), but Prototype 2 doesn’t include it. Prototype 2 has a reminder message when it’s getting closer to the time running out. </p>
+	  <h4 align="center"> Prototype 1 </h4>
+	  <img align="center" src="../img/project1/prototype1.png" class="img-fluid">
+	  <h4 align="center"> Prototype 2 </h4>
+	  <img align="center" src="../img/project1/prototype2.png" class="img-fluid">
+	  <h3 align="center"> Low-fidelity Prototypes </h3>
+	  <img align="center" src="../img/project1/highfidprototype.jpg" class="img-fluid">
+	  <h3> User Testing </h3>
+	  <p> After making our paper prototypes, we needed to see if our paper prototypes made any sense to someone unfamiliar with our product. So, we gave several of our peers (~5 people) the paper prototypes and hoped that they could navigate it without getting confused. After navigating, our peers did heuristic evaluations, using Neilsen's 10 Design Heuristics. Some changes that we did based on the feedback are: </p>
+	  <ul>
+	    <li> Cosmetic changes to the UI by spacing things apart more for a more minimalist look </li>
+		<li> Add some more user control by adding a back/undo button </li>
+		<li> Adding a help/documentation page to make the user more familiar with the app if they’re confused </li>
+	  </ul>
+	  <p> After making the high-fidelity prototype and making the first version of the product, we did user testing from three college students. We found common themes amongst our different users. We noticed there was an inconsistency with intuitive language on the task card, lack of user freedom when navigating the session page, and slight confusion on the purpose of menu bar tasks. We anticipated some of our design choices to be intuitive to them, but it wasn’t. We believe users had a lack of user freedom because we had not fully implemented all the functionality we wanted. One user tried to fully explore the session page feature and could not figure out how to edit or delete tasks, making them feel stuck. </p>
+	  <img align="center" src="../img/project1/usertesting2.png" class="img-fluid">
+	  <p> We also did A/B testing to see if certain design choices were better than another. Some changes we did were: </p>
+	  <ul>
+	    <li> A new color for the new session button </li>
+		<li> Change the “Current Sessions” list to a card styled list rather than our stacked list of sessions </li>
+	  </ul>
+	  <img align="center" src="../img/project1/usertesting3.png" class="img-fluid">
+	  <img align="center" src="../img/project1/usertesting4.png" class="img-fluid">
+	  <h3> Final Product Design and Results </h3>
+	  <p> In the end, we made the app, but it isn’t fully functional. We had several weeks to work on the app, but it wasn’t enough. Although the timer does work, there are problems, such as not pausing properly. Although sound does work, we didn’t fully implement the customization of the sound. We also didn’t implement all the style changes perfectly. We didn’t implement the goals or calendar section that we put in our prototypes. Despite these problems, it was a good experience to understand what it was like to be in a team and design a web app. </p>
+	  <img align="center" src="../img/project1/finaldesign.jpg" class="img-fluid">
+	  </div>
 	</div>
   </body>
 
