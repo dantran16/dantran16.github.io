@@ -12,19 +12,87 @@
   <body>
 	<div class = "container">
       <div class="jumbotron text-center"> 
-		  <h1> Dan Tran </h1>
-		  <p> UX Designer </p>
-		  <nav class="navbar navbar-expand-sm bg-light navbar-dark sticky-top">
-            <ul class="nav justify-content-center">
-              <li class="nav-item"><a class="nav-link" href="../index.html"> Home </a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html"> About </a></li>
-              <li class="nav-item"><a class="nav-link" href="project1.html"> Project 1 </a></li>
-			  <li class="nav-item active"><a class="nav-link disabled" href="project2.html"> Project 2 </a></li>
-            </ul>
-          </nav>
+		<h1> Dan Tran </h1>
+		<p> UX Designer </p>
+		<nav class="navbar navbar-expand-sm bg-light navbar-dark sticky-top">
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="project1.html">Project 1</a></li>
+			<li class="nav-item active"><a class="nav-link disabled" href="project2.html">Project 2</a></li>
+          </ul>
+        </nav>
 	  </div>
-	  <h1> Project 2 </h1>
-	 
+	  <h1 align="center"> Counter-Strike: Global Offensive Neurosky Project </h1>
+	  <h3 align="center"> Team: Dan Tran, Martin Shung, Saidel Halol, Sai Annapragada  </h3>
+	  <h3 align="center"> Contribution: Mostly on Methods and Results Compilation </h3>
+	  <h3 align="center"> Timeframe: Feb-Mar 2020 </h3>
+	  <img src="../img/project2/project2.png" class="img-fluid">
+	  <h3 align="center"> Introduction </h3>
+	  <p> In one course in interaction design, my team and I were interested to see how brain wave signals differ based on skill level, in particular brain waves that tend to be associated with attention. We wanted to focus on gaming, so we decided to pick a video game that was popular and requires lots of skill. We decided to go with Counter-Strike: Global Offensive because we were familiar with the game and it is a hard game to master. We compared the performance of a beginner and a player who’s played at one of the highest skill groups. It has important implications for skill development because by seeing the differences between highly skilled players and beginners, we can create a more optimal path to improvement based on measuring brain waves. </p>
+	  <h3 align="center"> Hypothesis </h3>
+	  <p align="center"><b>We expect the higher skilled players to have a higher attention, while the lower skilled players have a lower attention.</b></p>
+	  <h3 align="center"> Methods </h3>
+	  <p> For recording, we used a NeuroSky headset with the attention algorithm. This is used to record brain waves. We used OpenVibe as a way to record EEG data as a csv file and to see the brain waves in real time.</p>
+	  <div class="row rounded">
+	    <div class="col align-self-start">
+		  <p align="center"> <b> Neurosky Headset </b> </p>
+	      <img height="250px" align="center" src="../img/project2/methods1.png" class="rounded mx-auto d-block">
+		</div>
+	    <div class="col align-self-end">
+		  <p align="center"> <b> OpenVibe </b> </p>
+	      <img height="250px" align="center" src="../img/project2/methods2.png" class="rounded mx-auto d-block">
+		</div>
+	  </div>
+	  <p> For this study, we had three participants. Two of them (Don and Dan) were in the high-skill group, while one of them (Saidel) was in the normal-skill group. They used their own setups (except for speakers or headsets) while wearing the Neurosky headset to make sure they’re as comfortable as possible. </p>
+	  <p> Before doing the experiment, the participants must own a steam account in order to download and install CS:GO (a free game). They also must be somewhat familiar with the game, to the point where they have configured their own settings and aren't feeling too uncomfortable (at least 50 hours played). They must also download three maps from the steam workshop (from either the browser or client) by looking them up and subscribing to them. The three maps are Yprac Dust2, Aim Botz, and Aim Challenge. They have their own scenarios, which we used to compare differences between participants. </p>
+	  <div class="row rounded">
+	    <div class="col align-self-start">
+	      <img height="175px" align="center" src="../img/project2/methods3.png" class="rounded mx-auto d-block">
+		  <p align="center"> Yprac Dust2 - 3 scenarios </p>
+		</div>
+		<div class="col align-self-center">
+		  <img height="175px" align="center" src="../img/project2/methods4.png" class="rounded mx-auto d-block">
+		  <p align="center"> Aim_botz - 1 scenario </p>
+		</div>
+	    <div class="col align-self-end">
+	      <img height="175px" align="center" src="../img/project2/methods5.png" class="rounded mx-auto d-block">
+		  <p align="center"> Aim Challenge - 1 scenario </p>
+		</div>
+	  </div>
+	  <p> Here are some videos that can help people setup the scenarios: </p>
+	  <div class="row rounded">
+	    <div class="col align-self-start">
+	      <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bqcWqvpVeXE"></iframe>
+          </div>
+		  <p align="center"> How to access the maps in the game </p>
+		</div>
+		<div class="col align-self-center">
+		  <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gZ7fES2J43Y"></iframe>
+          </div>
+		  <p align="center"> Setting up yprac scenarios </p>
+		</div>
+	    <div class="col align-self-end">
+	      <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k-CEShbsUfw"></iframe>
+          </div>
+		  <p align="center"> Setting up 100 kills Challenge in Aim_botz </p>
+		</div>
+	  </div>
+	  <p> There are 5 scenarios. In each scenario, they are played three times and recorded when they start the scenario. Here are the scenarios each participant has gone through: </p>
+	  <div class="row rounded">
+	    <div class="col align-self-start">
+		  <p align="center"> <b> Peek scenario </b> </p>
+	      <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZR_xzG5tQKM"></iframe>
+          </div>
+		</div>
+		<div class="col align-self-center">
+		  <p> This scenario spawns the player and a stationary bot. When a player kills the bot, it moves the player and a bot to a different situation. This occurs 60 different times, and they’re at spots where a player might be and an enemy might be in  an actual game. It tests how well a player predicts where the enemy is and their accuracy.</p>
+		</div>
+	  </div>
 	</div>
   </body>
 
