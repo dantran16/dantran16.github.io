@@ -35,16 +35,17 @@
 }
 .portfolio-item .caption .caption-content{
 	color: white;
-	margin: auto 1rem 2rem;
+	margin: auto 0rem 0rem;
 }
 .portfolio-item-heading{
 	background-color: rgba(0,0,0,.5);
-	font-size: 1rem;
+	font-size: 2rem;
 	font-weight: bold;
 }
 .portfolio-item-caption{
 	background-color: rgba(0,0,0,.5);
 	font-weight: light;
+	font-size: 1.25rem;
 	margin-bottom: 0!important;
 }
 .intro{
