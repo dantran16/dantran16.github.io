@@ -1,4 +1,92 @@
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
- }
+*{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+}
+
+#heading{
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 0rem;
+}
+
+#tagline{
+	font-size: 1.5rem;
+	font-weight: lighter;
+}
+.projects{
+	padding-top: 7.5 rem;
+	padding-bottom: 7.5 rem;
+}
+.portfolio-item{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	max-width: 530 px;
+	margin: auto auto 1rem;
+}
+.portfolio-item .caption{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.portfolio-item .caption .caption-content{
+	color: white;
+	margin: auto 1rem 2rem;
+}
+.portfolio-item-heading{
+	background-color: rgba(0,0,0,.5);
+	font-size: 1rem;
+	font-weight: bold;
+}
+.portfolio-item-caption{
+	background-color: rgba(0,0,0,.5);
+	font-weight: light;
+	margin-bottom: 0!important;
+}
+.intro{
+}
+.cover-heading{
+	font-size: 2.5rem;
+	font-weight: bolder;
+}
+.projects-heading{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.lead{
+	font-size: 1.25rem;
+	font-weight: 300;
+	display: block;
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+	text-align: center;
+}
+.jumbotron{
+	background-color: white;
+	padding: 2rem;
+}
+
+.nav-masthead .nav-link {
+    padding: 0 .5rem;
+    font-weight: 500;
+	color: #0000ff;
+    background-color: transparent;
+	font-size: 1.1rem;
+    border-bottom: .25rem solid transparent;
+}
+.nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
+    border-bottom-color: rgb(0 0 0 / 25%);
+}
+.nav-masthead .disabled {
+    color: #FF4500;
+    border-bottom-color: #FF4500;
+}
+
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}

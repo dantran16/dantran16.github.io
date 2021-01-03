@@ -4,52 +4,70 @@
     <title> Dan Tran Portfolio </title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+  <body class="text-center">
+	<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+	  <!-- Header -->
+      <header class="jumbotron"> 
+		<h3 id ="heading" class="masthead-brand justify-content-center"> Dan Tran </h3>
+		<p id="tagline" class="masthead-brand justify-content-center"> UX Designer </p>
+	    <nav class="navbar nav-masthead justify-content-center"> 
+		  <a class="nav-link disabled" href="">Home</a>
+     	  <a class="nav-link" href="pages/about.html">About</a> 
+		  <a class="nav-link" href="pages/project1.html">Project 1</a>
+		  <a class="nav-link" href="pages/project2.html">Project 2</a>
+        </nav>
+	  </header>
+	  <!-- Main content -->
+	  <main role="main" class="inner cover">
+		<section class="intro">
+			<h1 class="cover-heading"> Hey, I'm Dan!</h1>
+			<p class="lead"> I'm an UX designer, looking to code and design. I've worked on several projects on web apps and looking forward to do more in the UX Design field. </p>
+		</section>
+		<section class="projects">
+		  <div class="container">
+			<h1 class="projects-heading"> Projects </h1>
+		    <div class="row no-gutters">
+			  <div class="col-lg-6">
+		        <a class="portfolio-item" href="pages/project1.html">
+				  <div class="caption">
+				    <div class="caption-content">
+					  <div class="portfolio-item-heading"> Temporal </div>
+					  <p class="portfolio-item-caption"> UX Design & Backend Development </h1>
+					</div>
+			      </div>
+		          <img class="img-fluid" src="img/project1.png" alt="Project1">
+		        </a>
+		      </div>
+		      <div class="col-lg-6">
+			    <a class="portfolio-item" href="pages/project2.html">
+				  <div class="caption">
+				    <div class="caption-content">
+					  <div class="portfolio-item-heading"> CS:GO Neurosky Project </div>
+					  <p class="portfolio-item-caption"> User Testing </h1>
+					</div>
+			      </div>
+		          <img class="img-fluid" src="img/project2.png" alt="Project2">
+		        </a>
+		      </div>
+			</div>
+		  </div>
+		</section>
+	  </main>
+	  <!-- Footer -->
+	  <footer class="mastfoot mt-auto">
+		<div class="inner">
+		  <p> Copyrights </p>
+		</div>
+	  </footer>
+	  
+	  
+	</div>
+	
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  </head>
-
-  <body>
-	<div class = "container">
-      <div class="jumbotron text-center"> 
-		<h1> Dan Tran </h1>
-		<p> UX Designer </p>
-	    <nav class="navbar navbar-expand-sm bg-light navbar-dark sticky-top">
-          <ul class="nav justify-content-center">
-            <li class="nav-item active"> 
-			  <a class="nav-link disabled" href="">Home</a>
-		    </li>
-            <li class="nav-item">
-     		  <a class="nav-link" href="pages/about.html">About</a> 
-			</li>
-            <li class="nav-item">
-			  <a class="nav-link" href="pages/project1.html">Project 1</a>
-			</li>
-		    <li class="nav-item">
-			  <a class="nav-link" href="pages/project2.html">Project 2</a>
-			</li>
-          </ul>
-        </nav>
-	  </div>
-	  <h2> Hey, I'm Dan!</h2>
-	  <p> I'm an UX designer, looking to code. I've worked on several projects on web apps and looking forward to do more in the UX Design field. </p>
-	  <h3 align="center"> Projects </h1>
-	  
-	  <div>
-	    <a href="pages/project1.html">
-          <img class="img-fluid" src="img/project1.png" alt="Project1" style="width:1100px;height:500px;">
-		</a>
-		<h3 align="center" class="font-weight-bold"> Temporal </h3>
-		<p align="center" class="font-weight-bold"> A task managing app </h1>
-	  </div>
-      <div>
-		<a href="pages/project2.html">
-          <img class="img-fluid" src="img/project2.png" alt="Project2" style="width:1100px;height:500px;">
-		</a>
-		<h3 align="center" class="font-weight-bold"> Counter-Strike: Global Offensive Neurosky Project </h3>
-		<p align="center" class="font-weight-bold"> A comparison between two skill groups by using EEG data </h1>
-      </div>
-	</div>
   </body>
 
 </html>
