@@ -21,7 +21,7 @@
 	display: block;
 	position: relative;
 	overflow: hidden;
-	max-width: 530 px;
+	max-width: 550 px;
 	margin: auto auto 1rem;
 }
 .portfolio-item .caption{
@@ -39,13 +39,13 @@
 }
 .portfolio-item-heading{
 	background-color: rgba(0,0,0,.5);
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 .portfolio-item-caption{
 	background-color: rgba(0,0,0,.5);
 	font-weight: light;
-	font-size: 1.25rem;
+	font-size: .8rem;
 	margin-bottom: 0!important;
 }
 .intro{
