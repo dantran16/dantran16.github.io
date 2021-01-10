@@ -3,13 +3,13 @@
 	text-align: center;
 }
 .inner p{
-	font-size: 1.5rem;
-	display: block;
-	justify-content: left;
+    font-size: 1.5em;
+    display: block;
+    justify-content: left;
     font-weight: 300;
     margin-inline-start: 15%;
     margin-inline-end: 15%;
-    text-align: left;
+    text-align: justify;
 }
 .inner li{
 	font-size: 1.5rem;
